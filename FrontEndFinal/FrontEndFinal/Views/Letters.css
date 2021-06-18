@@ -1,8 +1,33 @@
-﻿.messageStyle{
+﻿
+.top{
     background-color: aliceblue;
+}
+.messageStyle {
+    background-color: aliceblue;
+    font-family: Times New Roman;
     color: black;
 }
 
+.shareholder {
+    background-color: white;
+    color: black;
+    font-family: Times New Roman;
+}
+
+.pledge {
+    background-color: aliceblue;
+    color: black;
+    font-family: Times New Roman;
+}
+
+.special {
+    background-color: white;
+    color: black;
+    font-family: Times New Roman;
+}
+#logo{
+    color: darkblue;
+}
 /* Dropdown Button */
 .dropbtn {
   background-color: #04AA6D;
