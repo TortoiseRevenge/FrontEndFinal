@@ -1,3 +1,27 @@
 ﻿#mainTitle{
     padding-top:2em;
+    
+}
+#BHHQ{
+    max-width: 75%;
+}
+#aboutSection {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+    background-color: black;
+    color:aliceblue;
+}
+#aboutTextStart{
+    padding-top:3em;
+    padding-bottom:2em;
+}
+#geico{
+    max-width:20%
+}
+#legal{
+    padding-left:25%;
+    padding-bottom:2em;
 }
