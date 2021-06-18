@@ -2,6 +2,12 @@
 .top{
     background-color: aliceblue;
 }
+#tab4{
+    text-indent: 1%;
+}
+.tab2{
+    text-indent: 1%;
+}
 .messageStyle {
     background-color: aliceblue;
     font-family: Times New Roman;
