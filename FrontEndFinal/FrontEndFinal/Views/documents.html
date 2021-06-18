@@ -1,10 +1,11 @@
 ﻿<!DOCTYPE HTML>
 <head>
+    <script src="C:\Users\Huang\Desktop\Github\FrontEndFinal\FrontEndFinal\FrontEndFinal\showhide.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
-<body>
+<body onload="showHide('document')">
     <div class="container">
         <div class="row">
             <div class="col-sm-4"><h1>Berkshire Hathaway</h1></div>
@@ -23,52 +24,64 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-11">
                 <h4>Corporate Governance Guidelines</h4>
+                <p><a href="https://www.berkshirehathaway.com/govern/corpgov.pdf">Corporate Governance Guidelines</a></p>
+                <button onclick="showHide('document')">Show</button>
+
             </div>
         </div>
+       
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-11">
                 <h4>Code of Business Conduct and Ethics</h4>
+                <p><a href="https://www.berkshirehathaway.com/govern/ethics.pdf">Code of Business Conduct and Ethics</a></p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-11">
                 <h4>Insider Trading Policy</h4>
+                <p><a href="https://www.berkshirehathaway.com/govern/inside.pdf">Insider Trading Policy</a></p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-11">
                 <h4>Audit Committee Charter</h4>
+                <p><a href="https://www.berkshirehathaway.com/govern/audit.pdf">Audit Comitte Charter</a></p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-11">
                 <h4>Governance, Compensation, and Nominating Committee Charter</h4>
+                <p><a href="https://www.berkshirehathaway.com/govern/comp.pdf">Governance, Compensation, and Nominating Committee Charter</a></p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-11">
                 <h4>Section 16 Reports of Directors, Officers, and Principal Stockholders</h4>
+                <p><a href="https://www.sec.gov/edgar/browse/?CIK=1067983&owner=only">Section 16 Reports of Directors, Officers, and Principal Stockholders</a></p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-11">
                 <h4>Conflict Minerals Information</h4>
+                <p><a href="https://www.berkshirehathaway.com/govern/Conflict%20Minerals%20Policy.pdf">Conflict Minerals Policy Statement</a></p>
+                <p><a href="https://www.berkshirehathaway.com/govern/2020ConflictMineralsReport.pdf">Conflict Minerals Report</a></p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-11">
                 <h4>Wesco Financial Corp - Form 8937 Report on Basis of Securities</h4>
+                <p><a href="https://www.berkshirehathaway.com/govern/Wesco%20Form%208937%20Report%20of%20Organizational%20Actions%20Affecting%20Basis%20in%20Securitites.pdf">Conflict Minerals Report</a></p>
             </div>
         </div>
 
-
+       <br />
         <div class="row">
             <div class="col-sm-12">
                 <h2>Annual Meeting Information</h2>
@@ -77,22 +90,14 @@
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-11">
-                <h4>Next Meeting: April 30, 2022</h4>
-            </div>
-        </div>
-        <div></div>
-        <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-11">
-                <h4>May 1, 2021</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
+                <h4>The 2022 Annual Meeting is scheduled to be held on April 30, 2022.</h4>
+                <br />
+                <h4> May 1, 2021</h4>
                 <center><iframe width="950" height="535" src="https://www.youtube.com/embed/gx-OzwHpM9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
             </div>
         </div>
-
+       
+        <br />
         <div class="row">
             <div class="col-sm-12">
                 <h2>Proxy Statement-2021</h2>
@@ -100,7 +105,8 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <center><iframe src="..\Views\2021ProxyStmt.pdf" width="950" height="1100"</iframe></center>
+                <p class><a href="https://www.berkshirehathaway.com/2021ProxyStmt.pdf">Proxy Statement</a></p>
+                <center><iframe src="..\Views\2021ProxyStmt.pdf" width="950" height="500"</iframe></center>
             </div>
         </div>
     </div>
