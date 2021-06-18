@@ -1,17 +1,7 @@
 ﻿body {
     font-family: 'Times New Roman';
 }
-h1 {
-    font-weight: bold;
-    color: #2D2D94;
-}
-h3 {
-    font-weight: bold;
-    color: #2D2D94;
-}
-h4 {
-    color: black;
-}
+
 button {
     border:none;
     background-color: white;
