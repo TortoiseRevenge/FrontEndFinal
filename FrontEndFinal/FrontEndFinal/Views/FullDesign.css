@@ -1,4 +1,4 @@
-﻿/*CSS Code for Home Screen & Links Page*/
+﻿/*CSS Code for Home Screen and Links Page*/
 #mainTitle {
     padding-top: 2em;
 }
@@ -38,32 +38,34 @@
     margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+    padding-left: 2em;
     font-family: 'Times New Roman';
 }
 
 .darkSection {
-    background-color: darkblue;
+    background-color: black;
     color: aliceblue;
     padding-bottom: 2em;
 }
 
 .list-group-item {
-    color: darkblue;
     font-size: 1.1em;
 }
 
-.darkList {
-    background-color: darkblue;
-    color: aliceblue;
-}
 
 .shopButton {
-    background-color: white;
-    color: black;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
+.listPadding {
+    padding-top: 1em;
+    padding-bottom:1em;
+    padding-left:2em;
+    padding-right:2em;
+}
+
+/**CSS for Company Info (Documents) Page*/
 #corporate {
     margin-top: 2em;
     padding-top: 2em;
@@ -85,9 +87,7 @@
     text-align: center;
 }
 
-#logo {
-    color: darkblue;
-}
+
 /** CSS for Finance Page*/
 .financeBody {
     font-family: 'Times New Roman';
