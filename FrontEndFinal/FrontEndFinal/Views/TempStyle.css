@@ -1,4 +1,5 @@
-﻿#mainTitle{
+﻿
+#mainTitle{
     padding-top:2em;
     
 }
@@ -54,4 +55,25 @@
     margin-bottom:1em;
 }
 
+#corporate {
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+}
+#annual {
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+    background-color: black;
+    color: aliceblue;
+}
+.center {
+    padding: 265px 0;
+    text-align: center;
+}
+#logo {
+    color: darkblue;
+}
 
