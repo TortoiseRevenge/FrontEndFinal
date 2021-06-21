@@ -2,22 +2,29 @@
 <html>
 <head>
     <title>Berkshire Hathaway</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="..\wwwroot\lib\bootstrap\dist\js\bootstrap.js"></script>
     <link href="..\wwwroot\lib\bootstrap\dist\css\bootstrap.css" rel="stylesheet" />
     <link href=".\FullDesign.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Header -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3"><h1>Berkshire Hathaway</h1></div>
-            <div class="col-sm-2"><button class="btn btn-outline-primary"><a href="HomePage.html">Home</a></button></div>
-            <div class="col-sm-2"><button class="btn btn-outline-primary"><a href="LettersFromBuffet.html">Letters</a></button></div>
-            <div class="col-sm-2"><button class="btn btn-outline-primary"><a href="documents.html">Company Info</a></button></div>
-            <div class="col-sm-2"><button class="btn btn-outline-primary"><a href="financeinfo.html">Finance</a></button></div>
-            <div class="col-sm-1"><button class="btn btn-outline-primary"><a href="MoreLinks.html">Links</a></button></div>
+    <nav class="navbar navbar-expand-sm navbar-dark mb-sm-3 navBG">
+        <span class="navbar-brand h1"> Berkshire Hathaway</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="HomePage.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="LettersFromBuffet.html">Letters</a>
+                <a class="nav-item nav-link" href="documents.html">Company Info</a>
+                <a class="nav-item nav-link" href="financeinfo.html">Finance</a>
+                <a class="nav-item nav-link" href="MoreLinks.html">More Links</a>
+            </div>
         </div>
-    </div>
+    </nav>
+
     <!-- Main Body -->
     <div class="container">
         <div class="row">
@@ -59,16 +66,19 @@
 
     <!-- Footer -->
     <div class="container-fluid">
-        <div class="row" id="footer">
-            <!-- Legal Disclaimer -->
-            <div class="col-sm-6">
-                <a href="https://www.berkshirehathaway.com/disclaimer.html" id="legal">Legal Disclaimer</a>
-            </div>
-            <!-- Geico Ad -->
-            <div class="col-sm-6">
-                <a href="https://www.geico.com/"><img src="..\Resources\geico logo.png" id="geico" /></a>
-            </div>
-        </div>
+            <footer>
+                <div class="footer">
+                    <div class="row align-items-center">
+                        <div class="col-sm-12">
+                            <img src="https://static.wikia.nocookie.net/logopedia/images/d/d2/Geico_logo.svg/revision/latest?cb=20131005230353" width="18%" />
+                            <p>
+                                FOR A FREE CAR INSURANCE RATE QUOTE THAT COULD SAVE YOU SUBSTANTIAL MONEY VISIT
+                                <a href="https://www.geico.com/">WWW.GEICO.COM</a> OR CALL 1-888-395-6349, 24 HOURS A DAY
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
     </div>
 
 
